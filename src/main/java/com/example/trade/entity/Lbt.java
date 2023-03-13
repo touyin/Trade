@@ -1,19 +1,21 @@
 package com.example.trade.entity;
 
+import java.util.List;
+
 public class Lbt {
-    Message message;
+    List<Message> message;
     Meta meta;
 
-    public Lbt(Message message, Meta meta) {
+    public Lbt(List<Message> message, Meta meta) {
         this.message = message;
         this.meta = meta;
     }
 
-    public Message getMessage() {
+    public List<Message> getMessage() {
         return message;
     }
 
-    public void setMessage(Message message) {
+    public void setMessage(List<Message> message) {
         this.message = message;
     }
 
